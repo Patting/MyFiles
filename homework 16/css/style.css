@@ -1,0 +1,82 @@
+body {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  background-color: lightgrey;
+}
+
+/* Add CSS below to recreate the layout on the screen */
+
+.title {
+  padding-left: 125px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.profileimage {
+  position: absolute;
+  top: -80px;
+  left: -80px;
+}
+
+.expspace {
+  position: relative;
+  top: 20px;
+}
+
+.expspace2 {
+  position: relative;
+  top: 40px;
+}
+
+#tabs {
+  position: relative;
+  float: right;
+  width: 70%;
+  top: 75px;
+}
+
+#wrapper {
+  position: relative;
+  background-color: white;
+  width: 70%;
+  height: 900px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  top: 100px;
+  margin: auto;
+}
+
+#leftsection {
+  float: left;
+  width: 55%;
+  padding-right: 5%;
+}
+
+#leftsub1 {
+  float: left;
+  width: 25%;
+  padding-right: 5%;
+}
+
+#leftsub2 {
+  float: left;
+  width: 70%;
+}
+
+#leftsub3 {
+  float: left;
+  color: grey;
+  width: 40%;
+}
+
+.clearleft {
+  clear: left;
+}
+
+#rightsection {
+  float: left;
+  width: 40%;
+}
